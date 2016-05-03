@@ -1,0 +1,2 @@
+# SmartSplit
+Full Stack Project
