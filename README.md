@@ -6,8 +6,9 @@ SmartSplit is a website that allows the user to split bills with roommates, frie
 
 ## Steps to Run the Project
 1. Download modules SmartSplitDao, SmartSplitCore and SmartSplitWeb.
-2. Create jars of SmartSplitDao and SmartSplitCore and export these jars into the web module.
-3. Make sure that all maven dependencies and these two additional jars are in the build path.
+2. Create jar of SmartSplitDao and inport it into SmartSplitCore.
+3. Create SmartSplitCore and import it into SmartSplitWeb module.
+3. Make sure that all maven dependencies and the additional jars are in the build path.
 4. Run the SQL scripts form the file SS.sql.
 5. Change the path of database connection url in the Hibernate.cfg.xml file if required.
 10. Deploy the dynamic web project on Web Application Server Apache Tomcat 8.0. 
