@@ -22,13 +22,10 @@ import com.iTeam.common.*;
  * addTransaction - The method takes Transaction data type as input to add a new bill in database
  * getFriendList - The method take UserEmailID as input and extracts friend list of user
  * getTotal - The method take UserEmailID as input and calculates the values for Dashboard page
- * getTransactionList - The method
+ * getTransactionList - The method takes user's email and a friend's email and returns all the transaction
+ * 						between these two people.
  * getSingleTransaction - The method take Transaction id as input and extract transaction from database
- * updateTransaction - The method takes three inputs
- * 					1. Transaction ID
- * 					2. Update Value
- * 					3. Type to update 'a' - AddedTo; 'o' - AmountOwe; 't' - Title; 'c' - Category
- * 				based on the input the updation is performed
+ * updateTransaction - The method takes a transaction object and updates all the modified values
  * checkUserPass - The method checks if the user exist in database or not. It is used for adding a bill on user.
  * deleteTransaction - The method deletes the user from database. This method has no uses
  * 				from functionality point of view but was created to add test user and then delete
